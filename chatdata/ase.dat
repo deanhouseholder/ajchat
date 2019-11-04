@@ -1,0 +1,54 @@
+1b42af<~>1248845503.74<~>dean<~>ASE&#039;s can chat here
+a9a42f<~>1248846082.76<~>brenden<~>am here
+1b42af<~>1248846121.32<~>dean<~>Great.  They requested a separate place to chat, so I thought this would allow multiple ASE&#039;s to chat.
+46eb14<~>1248846241.79<~>tyler cooper<~>Hello world
+1b42af<~>1248846247.8<~>dean<~>Hey Coop
+b12520<~>1248846303.68<~>cory<~>fun stuff
+ca4441<~>1248846334.33<~>ziphyr<~>neato burrito
+1b42af<~>1248846345.59<~>dean<~>You may want to click Options and set the max lines to 100
+46eb14<~>1248846362.4<~>tyler cooper<~>perfect...
+a4f8e2<~>1248846365.05<~>jerame<~>dean, this is slick...thanks!
+46eb14<~>1248846367.46<~>tyler cooper<~>thanks for the use of your service Dean
+a675e0<~>1248846377.93<~>tyler carr<~>zzzzz
+caf06d<~>1248846380.77<~>ellison<~>thanks dean
+1b42af<~>1248846384.17<~>dean<~>Who is ziphyr?
+ca4441<~>1248846390.34<~>ziphyr<~>me
+ca4441<~>1248846392.14<~>ziphyr<~>;p
+a66260<~>1248846394.77<~>jed<~>Power is back - waiting to see if things come up OK and if things pop again
+ca4441<~>1248846425.88<~>middleware<~>what timezone is this?
+a4f8e2<~>1248846439.91<~>jerame<~>default is GMT 0 Hours...
+1b42af<~>1248846454.92<~>dean<~>Options-&gt; Timezone
+cafc9f<~>1248846512.18<~>heber<~>so if power is now stabilized, is it time for server roll-call?
+a66260<~>1248846532.69<~>jed<~>yes - getting an update from monitoring
+a4f8e2<~>1248846533.35<~>jerame<~>lds.org is resolving, but the webserver is NOT up.
+a66260<~>1248846540.64<~>jed<~>LDS.org is beginning to respond
+a675e0<~>1248846557.18<~>tyler carr<~>ssl vpn page is working
+a4f8e2<~>1248846558.98<~>jerame<~>I&#039;m just getting redirected to the <a href="http://oos.ldschurch.org/sitedown" target="_blank">http://oos.ldschurch.org/sitedown</a> page
+a675e0<~>1248846569.44<~>tyler carr<~>login error
+a4f8e2<~>1248846582.05<~>jerame<~>what&#039;s the SSL VPN link again?
+1b0fe3<~>1248846584.9<~>orson<~>lds.org is not up
+a66260<~>1248846585.58<~>jed<~>I got to the magazine subsite, but not the main site yet
+a66260<~>1248846594.41<~>jed<~><a href="https://vpn.ldschurch.org" target="_blank">https://vpn.ldschurch.org</a>
+a4f8e2<~>1248846598.59<~>jerame<~>meetingplace is up and working
+a4f8e2<~>1248846617.44<~>jerame<~>Is someone going to be creating an official chat room?
+a4f8e2<~>1248846624.63<~>jerame<~>on meetingplace
+a9a42f<~>1248846642.43<~>brenden<~>vpn IP is 216.49.182.30 should dns go down again
+a66260<~>1248846668.81<~>jed<~>Trying now
+a9a42f<~>1248846672.59<~>brenden<~>I can login via IP at least via vpnc, haven&#039;t tried editing pcf file for windows client
+a9a42f<~>1248846691.38<~>brenden<~>I am on via windows cisco using fqdn
+1b42af<~>1248846727.71<~>dean<~>I can&#039;t even connect by IP
+a9a42f<~>1248846771.05<~>brenden<~>are you using the ipsec client or the new one dean?
+1b42af<~>1248846897.64<~>dean<~>Tried it in Cisco VPN and VPNC (Linux)
+1b42af<~>1248846915.15<~>dean<~>Also tried going directly to that IP in a browser
+a66260<~>1248846973.7<~>jed<~>Authentication is not yet working
+a66260<~>1248846986.35<~>jed<~>meeting place chat room is setup though if you can get to it  :)
+a9a42f<~>1248846990.49<~>brenden<~>actually, I got the boot myself
+a9a42f<~>1248846993.53<~>brenden<~>vpn
+a66260<~>1248846993.59<~>jed<~>login is &quot;rapid&quot;
+ca4441<~>1248847003.37<~>middleware<~>72743
+cafc9f<~>1248847765.41<~>heber<~>what is external meetingplace url?
+cafc9f<~>1248847776.58<~>heber<~>meetingplace.lds.org wasn&#039;t coming up for me externally
+1b42af<~>1248847789.25<~>dean<~>chqmpweb1.ldschurch.org
+cafc9f<~>1248847856.87<~>heber<~>Thanks Dean!
+a66260<~>1248847876.7<~>jed<~><a href="http://meetingplace.ldschurch.org" target="_blank">http://meetingplace.ldschurch.org</a>
+a66260<~>1248847893.03<~>jed<~>ID: rapid

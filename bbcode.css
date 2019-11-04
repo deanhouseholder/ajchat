@@ -1,0 +1,10 @@
+div.bb-code-title{
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+div.bb-code{
+	color: #777;
+	background-color: #f8f8f8;
+	font-weight: normal;
+}

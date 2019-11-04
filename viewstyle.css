@@ -1,0 +1,11 @@
+div.status{
+	background: #F0F8FF;
+	margin: 1px;
+}
+
+div.nmsg{
+	display: block;
+	margin: 2px;
+	font-size: 14px;
+}
+

@@ -1,0 +1,7 @@
+# BEGIN ajchat
+
+<Files *>
+    deny from all
+</Files>
+
+# END ajchat

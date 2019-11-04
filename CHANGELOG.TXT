@@ -1,0 +1,5 @@
+Ajchat - Changelog
+==================
+
+2006-02-19 Teh Ming Han <ajchat@gmail.com>
+	### 0.10 released

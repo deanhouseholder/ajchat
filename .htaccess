@@ -1,0 +1,16 @@
+# BEGIN ajchat
+
+DirectoryIndex index.php
+
+<Files *.inc.php>
+    deny from all
+</Files>
+
+RewriteEngine on
+RewriteRule  ^help/?(.*)$$  help.php
+RewriteRule  ^chat/?(.*)$$  chat.php
+RewriteRule  ^schat/?(.*)$$  schat.php
+
+#php_flag register_globals off
+
+# END ajchat

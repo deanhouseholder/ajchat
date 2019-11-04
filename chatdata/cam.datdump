@@ -1,0 +1,300 @@
+0aafd6<~>1248846373.54<~>guest<~>Welcome to the Collaboration and Messaging Temporary Home!
+0aafd6<~>1248846382.55<~>guest<~>Post your external email address here
+1b42af<~>1248846528.66<~>dean<~><a href="mailto:deanhouseholder@gmail.com">deanhouseholder@gmail.com</a>
+1b4205<~>1248846625.43<~>josef<~>hello...
+0aafd6<~>1248846635.71<~>rodney bliss<~>Dean, is this room broadcasting to everyone?
+0aafd6<~>1248846666.43<~>rodney bliss<~>Current Status: Power is stable. External servers are coming online
+0aafd6<~>1248846688.64<~>rodney bliss<~>Internal systems are not up yet. Still waiting on DHCP
+1b4205<~>1248846698.3<~>josef<~>I noticed ISA is responding but VPN and Hub/CAS are still down...
+0aafd6<~>1248846699.82<~>rodney bliss<~>They are trying to bring up Directory services next
+1b4205<~>1248846712.21<~>josef<~>Ah... makes sense...
+1b4205<~>1248846736.53<~>josef<~>Looks like LDS.org is still down tooo
+0aafd6<~>1248846763.69<~>rodney bliss<~>The international sites are also coming up
+b13891<~>1248846771.85<~>guest<~>hey all
+b13891<~>1248846774.18<~>guest<~>this is eric
+1b4205<~>1248846779.13<~>josef<~>Looks like the emergency plan should include external emails and chat services ;)
+b13891<~>1248846783.49<~>eric raff<~>how is it going
+0aafd6<~>1248846799.23<~>rodney bliss<~>Can you see the status&#039;s below?
+0aafd6<~>1248846806.45<~>rodney bliss<~>Sounds like MeetingPlace is up
+0aafd6<~>1248846820.31<~>rodney bliss<~>I&#039;m on the bridge
+b13891<~>1248846828.54<~>eric raff<~>right, got it
+0aafd6<~>1248846854.04<~>rodney bliss<~>Meeting ID is &quot;rapid&quot;
+0aafd6<~>1248846892.99<~>rodney bliss<~>Lost primary switch for all production zones in dc
+0aafd6<~>1248846898.27<~>rodney bliss<~>redundant node is up
+b13891<~>1248846927.65<~>eric<~>so did out boxes loose power?
+0aafd6<~>1248846948.89<~>rodney bliss<~>Authentication is still not online
+0aafd6<~>1248846960.2<~>rodney bliss<~>Eric - Yup.
+1b42af<~>1248846963.16<~>dean<~>This room is only broadcasting to itself.  There&#039;s an ASE room that&#039;s not getting these updates
+0aafd6<~>1248846971.77<~>rodney bliss<~>Everything crashed hard
+b13891<~>1248846994.08<~>eric<~>so the primary switch was fried as a result of power outage?
+0aafd6<~>1248847003.82<~>rodney bliss<~>Do you know what w1159 is?
+b13891<~>1248847013.07<~>eric<~>ISA server
+0aafd6<~>1248847018.57<~>rodney bliss<~>one of ours?
+b13891<~>1248847022.02<~>eric<~>no not ISA, an OCS Edge box
+b13891<~>1248847024.53<~>eric<~>yes one of ours
+0aafd6<~>1248847056.94<~>rodney bliss<~>Thanks
+0aafd6<~>1248847090.67<~>rodney bliss<~>Dean, the CaM team is the Messaging and Collaboration team. (Exchange and SharePoint)
+0aafd6<~>1248847123.64<~>rodney bliss<~>Zen core switch for all rows is dead
+0aafd6<~>1248847141.65<~>rodney bliss<~>But, it sounds like they have redundant switch
+b13891<~>1248847181.17<~>eric<~>I get the FORM login page at mail.ldschurch.org so looks like DMZ stuff is up
+1b4205<~>1248847251.76<~>josef<~>Looks like the VPN is challenging, but authentication is failing (obviously)
+0aafd6<~>1248847262.29<~>rodney bliss<~>Radcliff is currently working on getting Directory up
+0aafd6<~>1248847270.37<~>rodney bliss<~>That&#039;s the top of the queue right now
+b13891<~>1248847276.63<~>eric<~>perfect
+b13891<~>1248847303.59<~>eric<~>I am not getting 220 back from internet when hitting 178.91,92, or 93 our 3 MX record IP&#039;s
+0aa183<~>1248847335.08<~>matt hyer<~>Ok, I&#039;m here
+0aafd6<~>1248847339.94<~>rodney bliss<~>After Dir is peoplesoft
+0aafd6<~>1248847372.78<~>rodney bliss<~>SOunds like GSD can now login
+0aafd6<~>1248847392.88<~>rodney bliss<~>Hey, Matt. Welcome to the party :)
+0aa183<~>1248847402.7<~>matt hyer<~>giddy up
+b13891<~>1248847427.69<~>eric<~>to mail.ldschurch.org Rodney?
+0aafd6<~>1248847449.97<~>rodney bliss<~>No, just into the network
+0aafd6<~>1248847463.01<~>rodney bliss<~>Might even just be using cached credentials
+0aafd6<~>1248847480.09<~>rodney bliss<~>BTW, Power is back 100% according to Elaine
+b13891<~>1248847498.71<~>eric<~>just got the txt broadcast to <a href="mailto:ics.infrastructure@gmail.com">ics.infrastructure@gmail.com</a> group. cool
+0aa183<~>1248847509.72<~>matt hyer<~>got that as well
+0aafd6<~>1248847516.83<~>rodney bliss<~>Row 700 our OCS edge server looks like its the only thing that fried
+b13891<~>1248847530.1<~>eric<~>poo
+0aafd6<~>1248847541.05<~>rodney bliss<~>Row 800 looks like it&#039;s got a couple of fried switches
+b13891<~>1248847542.6<~>eric<~>could have been worse then
+0aafd6<~>1248847554.04<~>rodney bliss<~>At the DC they are now going row by row
+b13891<~>1248847571.45<~>eric<~>oh boy here come the alerts. :-)
+0aa183<~>1248847576.69<~>matt hyer<~>hey just got a nagios alert
+0aafd6<~>1248847588.17<~>rodney bliss<~>After PeopleSOft is CFAR, then CMOS
+0aa183<~>1248847629.05<~>matt hyer<~>looks like we are starting to get internet connections, but I&#039;m sure proofpoint will be hammered
+0aafd6<~>1248847648.78<~>rodney bliss<~>Kyle is shutting down the nagios updates
+0aafd6<~>1248847662.25<~>rodney bliss<~>alerts, I mean
+0aa183<~>1248847662.32<~>matt hyer<~>yea Kyle :)
+0aafd6<~>1248847686.93<~>rodney bliss<~>Active Directory is up (supposedly)
+0aafd6<~>1248847692.13<~>rodney bliss<~>Now working on eDir
+0aafd6<~>1248847702.04<~>rodney bliss<~>Finding a bunch of dead switches
+b13891<~>1248847711.89<~>eric<~>ouch
+0aafd6<~>1248847796.49<~>rodney bliss<~>BTW, you can go to <a href="http://meetingplace.ldschurch.org" target="_blank">http://meetingplace.ldschurch.org</a> and meeting ID &quot;rapid&quot;
+b13891<~>1248847850.99<~>eric<~>is this for audio as well Rodney (meeting place i mean)
+0aa183<~>1248847858.17<~>matt hyer<~>Should we?
+0aafd6<~>1248847916.34<~>rodney bliss<~>Open both.
+0aafd6<~>1248847927.99<~>rodney bliss<~>This site is good for talking amongst ourselves
+0aafd6<~>1248847939.68<~>rodney bliss<~>Most of the info is coming over the bridge currently
+0aafd6<~>1248847973.34<~>rodney bliss<~>They are a little hesitant to dump the audio bridge
+0aafd6<~>1248847984.21<~>rodney bliss<~>Hey, any idea what rows our stuff is on?
+b13891<~>1248848062<~>eric<~>i am on the meeting place meeting
+b13891<~>1248848068.43<~>eric<~>via audio
+0aafd6<~>1248848087.65<~>rodney bliss<~>Are you hearing the same conversation as the straight audio?
+0aafd6<~>1248848161.16<~>rodney bliss<~>Guy Munford is in the DC
+b13891<~>1248848169.14<~>eric<~>they are all going back to the bridge for audio sounds like
+b13891<~>1248848184.11<~>eric<~>so nothing happening here for audio
+b13891<~>1248848191.94<~>eric<~>Rodney u r on the other bridge right
+0aafd6<~>1248848203.7<~>rodney bliss<~>I&#039;m on the audio only bridge
+b13891<~>1248848209.48<~>eric<~>ok
+b13891<~>1248848219.09<~>eric<~>you will have to give us updates from there then
+0aafd6<~>1248848219.34<~>rodney bliss<~>Good news. Looks like the 700 N switchs are good
+0aa183<~>1248848275.37<~>matt hyer<~>no one on that rapid meeting place bridge
+0aafd6<~>1248848284.93<~>rodney bliss<~>What rows are our servers on?
+0aa183<~>1248848300.59<~>matt hyer<~>proofpoint are on 1000N and 500 N
+0aa183<~>1248848316.71<~>matt hyer<~>not sure which rows are exchange
+b13891<~>1248848321.5<~>eric<~>anyway to check PPS?
+0aa183<~>1248848333.92<~>matt hyer<~>I&#039;ve been trying to telnet
+b13891<~>1248848345.09<~>eric<~>pps is 1000 north
+0aa183<~>1248848347.21<~>matt hyer<~>but its not connecting.  Pings respond, but that could just be the firewall
+b13891<~>1248848353.99<~>eric<~>and 500 N
+0aafd6<~>1248848362.19<~>rodney bliss<~>Sounds like the SAN is down
+0aafd6<~>1248848374.22<~>rodney bliss<~>So, no VMWare boxes are up yet
+1b4205<~>1248848389.05<~>josef<~>So no AD...
+0aafd6<~>1248848396.76<~>rodney bliss<~>Why not?
+b13891<~>1248848399.34<~>eric<~>right same here
+b13891<~>1248848402.95<~>eric<~>i cannot VPN in yet
+1b4205<~>1248848413.68<~>josef<~>AD is all on VMs, I believe...
+0aafd6<~>1248848456.51<~>rodney bliss<~>Maybe some VM&#039;s are not on the SAN
+0aafd6<~>1248848472.54<~>rodney bliss<~>The dir team said that they got AD up
+0aa183<~>1248848478.24<~>matt hyer<~>No, DC&#039;s are on the blades
+0aa183<~>1248848487.08<~>matt hyer<~>or at least they were
+1b4205<~>1248848487.36<~>josef<~>Maybe they have a couple of physicals too...
+0aa183<~>1248848507.21<~>matt hyer<~>They build them in teh same chassis as exchange
+1b4205<~>1248848519.51<~>josef<~>ah, that&#039;s right...
+1b4205<~>1248848543.13<~>josef<~>I remeber the weird network issues they had mapping the NIC in those chassis...
+0aafd6<~>1248848604.4<~>rodney bliss<~>So, if they get the DC&#039;s up, then our stuff should be close, since we are on the same row, in the same chasis
+0aa183<~>1248848628.21<~>matt hyer<~>I would assume as much
+0aa183<~>1248848643.2<~>matt hyer<~>Eric, are you on the audio via the meeting place bridge?
+0aafd6<~>1248848646.02<~>rodney bliss<~>There a couple switches on 500 N that are dead
+b13891<~>1248848663.42<~>eric<~>i hope pps is ok
+b13891<~>1248848684.31<~>eric<~>operator is going to tie together the meeting place bridge and the bridge u r on rodney
+0aafd6<~>1248848694.22<~>rodney bliss<~>cool
+b13891<~>1248848696.84<~>eric<~>so if u get into meeting place you can get all the audio soon
+0aafd6<~>1248848716.05<~>rodney bliss<~>Matt, do we want to open a ticket with ProofPoint as a precaution?
+b13891<~>1248848735.77<~>eric<~>I say once we know more we do
+b13891<~>1248848761.76<~>eric<~>we can open a P1 system down if needed but right now we dont know what the state of pps is
+0aafd6<~>1248848798.53<~>rodney bliss<~>Lost BEZ2 and BDZ2
+0aafd6<~>1248848861.84<~>rodney bliss<~>We are getting a list of &quot;dead&quot; servers ... should be posted to the meeting placed screen soon
+0aafd6<~>1248848878.67<~>rodney bliss<~>they don&#039;t know if they are TRUELY dead, or only mostly dead
+b13891<~>1248848909.43<~>eric<~>fun
+b13891<~>1248848919.74<~>eric<~>I bet there is a nice pill to give the mostly dead ones
+0aa183<~>1248848968.57<~>matt hyer<~>Once we know what is going on, then we can call if needed for proofpoint
+b13891<~>1248849030.3<~>eric<~>its going to be a long night........
+0aa183<~>1248849070.91<~>matt hyer<~>indeed
+0aafd6<~>1248849104.51<~>rodney bliss<~>Eric, can you read Tyler&#039;s spreadsheet?
+0aa183<~>1248849119.26<~>matt hyer<~>hey, just got a telnet to mail2 220 ok
+0aa183<~>1248849127.6<~>matt hyer<~>that&#039;s a good sign
+0aafd6<~>1248849147.07<~>rodney bliss<~>PRD and PRD2 on 500 N are totally dead and not recoverable
+0aa183<~>1248849197.12<~>matt hyer<~>meeting place brige is all echoie
+0aafd6<~>1248849210.98<~>rodney bliss<~>What&#039;s echoie?
+0aafd6<~>1248849295.85<~>rodney bliss<~>All dir servers are up except for a couple that died on 500 N
+0aafd6<~>1248849308.51<~>rodney bliss<~>They are wondering why we still can&#039;t get in
+b13891<~>1248849376.11<~>eric<~>Yes, I can see tylers spreadsheet
+b13891<~>1248849384.12<~>eric<~>audio on MP bridge is useless
+0aafd6<~>1248849386.17<~>rodney bliss<~>VPN should be up now
+b13891<~>1248849396.1<~>eric<~>operator needs to mute their lines
+1b4205<~>1248849414.18<~>josef<~>VPN is online... I&#039;m in
+b13891<~>1248849429.4<~>eric<~>vpn should be up
+0aafd6<~>1248849462.85<~>rodney bliss<~>Oh, good.
+b13891<~>1248849471.84<~>eric<~>mail1, mail5 are OK
+0aafd6<~>1248849480.72<~>rodney bliss<~>nice
+b13891<~>1248849481.54<~>eric<~>mail6 is OK
+1b4205<~>1248849537.53<~>josef<~>SharePoint SQL servers are up... Checking them now...
+1b4205<~>1248849556.93<~>josef<~>SharePoint Index Serv is online...   one WFE server...
+0aafd6<~>1248849577.14<~>rodney bliss<~>Eric, are you checking OCS?
+0aafd6<~>1248849586.68<~>rodney bliss<~>never mind.
+0aafd6<~>1248849592.64<~>rodney bliss<~>Do the PPS stuff first
+b13891<~>1248849624.55<~>eric<~>I will check OCS once PPS is looking good
+0aafd6<~>1248849642.53<~>rodney bliss<~>It will be helpful to know if the SAN (and our mbx servers) are online
+b13891<~>1248849709.95<~>eric<~>mail3,mail4 and mail7 are NOT responding to pings at all
+b13891<~>1248849716.49<~>eric<~>mail1,2,5,6 ARE
+0aa183<~>1248849723.95<~>matt hyer<~>rignt
+1b4205<~>1248849730.54<~>josef<~>HBZ looks to be down...
+0aa183<~>1248849738.09<~>matt hyer<~>we may have to have someone check mail3
+0aa183<~>1248849747.18<~>matt hyer<~>when someone can down there
+1b4205<~>1248849748.37<~>josef<~>It looks like PowerPath is showing disk on the SQL servers...
+1b4205<~>1248849773.15<~>josef<~>I have clusterd disk on SQL
+b13891<~>1248849852.99<~>eric<~>i can log into my mailbox via OWA
+1b4205<~>1248849861.77<~>josef<~>Is anyone seeing DNS issues with ldschurch.org?
+b13891<~>1248849867.67<~>eric<~>at least the NetApp Primary Active SAN is up for ENG
+b13891<~>1248849875.25<~>eric<~>will test health check mboxes now....
+0aa183<~>1248849898.76<~>matt hyer<~>is anyone on the other bridges?
+0aa183<~>1248849912.12<~>matt hyer<~>I tried to call in, but the echo was awful
+0aa183<~>1248849921.14<~>matt hyer<~>no one talking either
+b13891<~>1248849969.52<~>eric<~>cool netapp SAN for mbox1 is up
+b13891<~>1248849980.1<~>eric<~>could get into mbx01db01
+0aa183<~>1248849985.08<~>matt hyer<~>good
+b13891<~>1248850007.89<~>eric<~>mbx02 looks OK
+1b4205<~>1248850014.03<~>josef<~>SharePoint is online...
+b13891<~>1248850047.76<~>eric<~>mbx03 is OK
+0aafd6<~>1248850052.64<~>rodney bliss<~>They verified our SAN from the system level and said it was good.
+0aafd6<~>1248850064.84<~>rodney bliss<~>Switching to meetingplace bridge ID 4321
+b13891<~>1248850091.53<~>eric<~>Nixon should be joining us soon..... here
+b13891<~>1248850096.67<~>eric<~>i am emailing him
+1b4205<~>1248850157.86<~>josef<~>SharePoint SQL is in a failed over state because the Heartbeat Zone is not online...
+1b4205<~>1248850319.66<~>josef<~>HBZ is now back online for SharePoint
+b13891<~>1248850340.08<~>eric<~>John gets websence filter error trying to get here.
+b13891<~>1248850347.6<~>eric<~>he is checking exchange over
+1b4205<~>1248850351.62<~>josef<~>He must be VPN&#039;d
+b13891<~>1248850356.47<~>eric<~>I will start getting a look at OCS
+b13891<~>1248850358.14<~>eric<~>right he is
+1b4205<~>1248850362.54<~>josef<~>WebSense is still messed up
+b13891<~>1248850369.89<~>eric<~>Matt can u check mail3,4 and 7?
+b13891<~>1248850402<~>eric<~>john is also checking Netmail
+0aa183<~>1248850412.11<~>matt hyer<~>trying to
+0aa183<~>1248850418.6<~>matt hyer<~>but they are down
+b13891<~>1248850472.14<~>eric<~>k
+b13891<~>1248850479<~>eric<~>anyone know the status of BBZ ESX Farm?
+0aa183<~>1248850490.59<~>matt hyer<~>sounds like it is down still
+b13891<~>1248850523.43<~>eric<~>right, that is why OCS is still out
+b13891<~>1248850534.63<~>eric<~>the Directors are on the ESX farm and you have to go there before you can suth
+b13891<~>1248850544.29<~>eric<~>unless you manuall point your client to ocspoolr2.ldschurch.org
+1b4205<~>1248850588.19<~>josef<~>CHQPVUW2074 (SharePoint WFE server) is still down...
+0aafd6<~>1248850834.92<~>rodney bliss<~>You guys are all hearing the call, right?
+0aa183<~>1248850846.97<~>matt hyer<~>yes
+b13891<~>1248850880.79<~>eric<~>had a bunch of services on OCS that did not start
+b13891<~>1248850889.44<~>eric<~>starting them looks like it is going ok
+1b4205<~>1248850931.5<~>josef<~>Last SharePoint Production server is comming online now...
+0aafd6<~>1248850957.8<~>rodney bliss<~>I thought we had a VM dependency for OCS?
+b13891<~>1248850973.57<~>eric<~>voice mail?
+b13891<~>1248850981.19<~>eric<~>not dependant on OCS
+b13891<~>1248850989.25<~>eric<~>just Exchange and Cisco call Manager etc
+b13891<~>1248850998.21<~>eric<~>matt what Meeting place bridge u on
+b13891<~>1248851001.78<~>eric<~>the 4321
+0aa183<~>1248851007.86<~>matt hyer<~>yes
+0aafd6<~>1248851152.04<~>rodney bliss<~>What was that OCS edge server that I asked about earlier?
+0aafd6<~>1248851166.33<~>rodney bliss<~>w1152?
+0aafd6<~>1248851175.39<~>rodney bliss<~>1159?
+b13891<~>1248851200<~>eric<~>1159
+b13891<~>1248851209.65<~>eric<~>I have not gotten to that to check it yet
+b13891<~>1248851210.86<~>eric<~>will soon
+b13891<~>1248851217.52<~>eric<~>I can get to OCS if I poing directly to the pool now
+b13891<~>1248851220.11<~>eric<~>services are all up
+0aafd6<~>1248851248.05<~>rodney bliss<~>awesome
+b13891<~>1248851316.86<~>eric<~>OCS Directors are not up because of the ESX farm
+b13891<~>1248851333.13<~>eric<~>IF u were already logged in you might be ok
+b13891<~>1248851348.13<~>eric<~>otherwise right now you have to manually point to ocspoolr2.ldschurch.org and select TLS
+0aa183<~>1248851520.01<~>matt hyer<~>mail 1, 2, 5 and 6 are running internet mail
+b13891<~>1248851592.24<~>eric<~>Rodney, W1159 is NOT the OCS Edge (that was W2259) W1159 is a HUB/CAS exchange box
+b13891<~>1248851616.82<~>eric<~>i am on w1159 though so it is ok
+48b8b9<~>1248851696.64<~>andy<~>Hey is this chat working?
+0aafd6<~>1248851744.03<~>rodney bliss<~>Andy, this chat is for the Collaboration and Message team
+48b8b9<~>1248851751.54<~>andy<~>ok great
+48b8b9<~>1248851764.72<~>andy<~>just want an update on communicator and CMIS?
+0aa183<~>1248851765<~>matt hyer<~>Andy was feeling left out
+0aa183<~>1248851770.66<~>matt hyer<~>I sent him our link
+0aa183<~>1248851780.36<~>matt hyer<~>Andy Milnes from Germany
+0aafd6<~>1248851795.93<~>rodney bliss<~>We can update you on Communicator, but not CMIS
+48b8b9<~>1248851817.09<~>andy<~>ok
+0aafd6<~>1248851828.1<~>rodney bliss<~>Eric, can you give an update?
+b13891<~>1248851931.67<~>eric<~>waiting for ESX farm to come online
+48b8b9<~>1248851941.56<~>andy<~>ok
+b13891<~>1248851958.28<~>eric<~>i can get to communicator if I manually point my client to ocspoolr2.ldschurch.org and am VPN&#039;d in
+b13891<~>1248851964.75<~>eric<~>it will not work from the web yet
+48b8b9<~>1248851968.21<~>andy<~>so outlook for internal and external is all good?
+b13891<~>1248852016.06<~>eric<~>so far yes
+b13891<~>1248852020.27<~>eric<~>outlook is looking o
+b13891<~>1248852021.46<~>eric<~>ok
+b13891<~>1248852033.67<~>eric<~>and mail flow is going in and out right now but not at full capacity yet
+48b8b9<~>1248852042.25<~>andy<~>good thanks for that
+b13891<~>1248852047.59<~>eric<~>yes
+1b4205<~>1248852084.06<~>josef<~>Rodney, I still have no network connectivity on the W2074 box...
+0aafd6<~>1248852096.4<~>rodney bliss<~>Doesn&#039;t vintella authenticate through the same boxes that NetMail uses
+0aa183<~>1248852108.8<~>matt hyer<~>no
+0aafd6<~>1248852114.52<~>rodney bliss<~>What is W2074?
+1b4205<~>1248852123.62<~>josef<~>Web Front End for SharePoint
+0aa183<~>1248852135.78<~>matt hyer<~>we do have vintella that is on the linux server, but it is for login to active directory
+0aafd6<~>1248852143.96<~>rodney bliss<~>Matt - didn&#039;t we kill the Vintella system when we had our auth issues a couple months ago?
+0aa183<~>1248852156.61<~>matt hyer<~>oh, that was NetID
+0aa183<~>1248852169.85<~>matt hyer<~>which is used very little now I think
+b13891<~>1248852179.99<~>eric<~>Vintella is still active on the MyLDSMail.net linux server mailbox store box
+0aafd6<~>1248852194.22<~>rodney bliss<~>Josef - R the other two WFE servers running?
+1b4205<~>1248852294.27<~>josef<~>Yes, they both appear to be functioning correctly
+0aa183<~>1248852302.16<~>matt hyer<~>myldsmail.net linux server is not up
+0aa183<~>1248852314.94<~>matt hyer<~>could be because of the san
+b13891<~>1248852445.71<~>eric<~>anyone hear anything new about the vmware ESX BBZ farm
+b13891<~>1248852461.12<~>eric<~>last Stout said was that they were coming online but are there SAN issues?
+48b8b9<~>1248852536.15<~>andy<~>since they opened up the BEZ auth i can access the vms in EA ...?
+0aa183<~>1248852667.23<~>matt hyer<~>not sure Erci
+0aa183<~>1248852687.01<~>matt hyer<~>No wait, teh BBZ esx was on a row with a dead switch
+0aa183<~>1248852718.6<~>matt hyer<~>chqpvul5162 is not respondig, but the CAZ shows a down nic, so he may be on a bad switch
+b13891<~>1248852773.7<~>eric<~>so did we loose power to the entire data center? Did anything stay up?
+0aa183<~>1248852796.43<~>matt hyer<~>sounds like it was power across the valley both slc and ut
+0aa183<~>1248852808.47<~>matt hyer<~>My house flickered about 9:45
+48b8b9<~>1248852819.74<~>andy<~>don&#039;t you have a backup?
+b13891<~>1248852865.61<~>eric<~>Hu? across the valley SLC and UT?????
+48b8b9<~>1248852866.03<~>andy<~>not good if power goes down and switches blow ...
+48b8b9<~>1248852880.03<~>andy<~>no in Provo - just for the dc
+0aa183<~>1248852896.93<~>matt hyer<~>that is what I heard on the phone earlier, but it was someone asking
+0aafd6<~>1248852977.26<~>rodney bliss<~>the power blip caused the dc to decide to switch to backup power
+0aafd6<~>1248852995.22<~>rodney bliss<~>At that point only one of the two diesel generators came online
+48b8b9<~>1248853015.44<~>andy<~>ok
+0aafd6<~>1248853023.49<~>rodney bliss<~>The dc then ran on UPS until the batteries died at which point the whole thing crashed
+a9a892<~>1248853029.26<~>stout<~>We aren&#039;t 100% sure what caused it at this point.
+a9a892<~>1248853043.73<~>stout<~>They&#039;re renigging on their earlier explanation.
+0aafd6<~>1248853050.66<~>rodney bliss<~>oic
+b13891<~>1248853113.35<~>eric<~>Mike, is the ESX farm affected by Switch outages and or SAN outages?
+48b8b9<~>1248853115.84<~>andy<~>thanks for that
+a9a892<~>1248853156.43<~>stout<~>All the farms are up except BBZ.
+a9a892<~>1248853166.31<~>stout<~>For some reason it is saying that the farm is invalid.
+a9a892<~>1248853175.52<~>stout<~>We&#039;re rebooting in hopes that it will come up now.
+a9a892<~>1248853207.03<~>stout<~>There may be individual vm&#039;s that aren&#039;t up yet.
+b13891<~>1248853243.01<~>eric<~>ok, thx
+b13891<~>1248853299.51<~>eric<~>Rodney, what time did Adam get dropped from his VPN?
+0aafd6<~>1248853305.37<~>rodney bliss<~>Josef - if we are only missing one WFE server, then we can declare SharePoint &quot;UP&quot;, right?
+0aafd6<~>1248853375.96<~>rodney bliss<~>Eric - He called me at 10:28 and he got kicked off a little before that
+0aafd6<~>1248853394.3<~>rodney bliss<~>Sounds like it was about the same time
+0aa183<~>1248853764.29<~>matt hyer<~><a href="http://www.sltrib.com/news/ci_12934896" target="_blank">http://www.sltrib.com/news/ci_12934896</a>
+0aa183<~>1248853786.36<~>matt hyer<~>looks like a fire cause the problem
+b13891<~>1248854031.98<~>eric<~>nice find matt
+b13891<~>1248854167.16<~>eric<~>I checked the SCOM SQL cluster

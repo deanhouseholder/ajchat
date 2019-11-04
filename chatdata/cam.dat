@@ -1,0 +1,105 @@
+b13891<~>1248854180.52<~>eric<~>cluster service was not started, and OCS DB&#039;s were not online.
+b13891<~>1248854208.38<~>eric<~>SCOM SQL is looking good now.
+0ab3f0<~>1248854218.05<~>nixon<~>still trying to get 1163 up.
+0ab3f0<~>1248854360.82<~>nixon<~>he is a hub caz
+b13891<~>1248854369.23<~>eric<~>matt did you ever hear on mail3,4,7
+0aafd6<~>1248854656.35<~>rodney bliss<~>Also, BES servers?
+0aa183<~>1248855064.36<~>matt hyer<~>no, Guy was going to check, but I think he got pulled off for the other stuff
+0aa183<~>1248855078.58<~>matt hyer<~>BES servers are all on the BBZ esx farm
+0aa183<~>1248855094.65<~>matt hyer<~>once that is up, those should come back online.
+b13891<~>1248855170<~>eric<~>Just curious did this affect BYU servers as well?
+0aa183<~>1248855220.23<~>matt hyer<~>yes
+0aa183<~>1248855235.16<~>matt hyer<~>someone asked that eariler on the bridge
+0ab3f0<~>1248855245.34<~>nixon<~>latency seems to be ok at the moment
+0aafd6<~>1248855272.32<~>rodney bliss<~>So, the stuff that is NOT working for MSG:
+0aafd6<~>1248855278.98<~>rodney bliss<~>Blackberry servers
+0aafd6<~>1248855285.65<~>rodney bliss<~>OCS Directors
+b13891<~>1248855300.97<~>eric<~>John is w1163 up?
+0aafd6<~>1248855301.99<~>rodney bliss<~>Mail 3, 4 and 7 on ProofPoint
+0aa183<~>1248855353.16<~>matt hyer<~>one blackberry server is up, but no database for BES
+0aafd6<~>1248855361.81<~>rodney bliss<~>Eric - did all the databases or at least a database on each server?
+0aa183<~>1248855370.77<~>matt hyer<~>w2224 is online, but without the database, its not going to work
+b13891<~>1248855487.72<~>eric<~>I just hit 1 database per server
+b13891<~>1248855490.78<~>eric<~>all ok
+0aafd6<~>1248855520.46<~>rodney bliss<~>At what point do we wrap for the night and pick it up tomorrow?
+0aafd6<~>1248855540.38<~>rodney bliss<~>Email is not on the critical path list, althought it&#039;s mostly working anyway
+0aafd6<~>1248855550.24<~>rodney bliss<~>We&#039;ve explained how to get to OCS
+b13891<~>1248855570.38<~>eric<~>right, I chatted that into the Live Meeting chat
+0aa183<~>1248855574.59<~>matt hyer<~>I am worried about MAIL3, no updates will get pushed for spam
+0aa183<~>1248855578.82<~>matt hyer<~>without that up
+0aafd6<~>1248855605.66<~>rodney bliss<~>What&#039;s your worst case scenario if it doesn&#039;t come up until tomorrow?
+0ab3f0<~>1248855617.89<~>nixon<~>1163 is not, also I dont think scom is working completely
+0aa183<~>1248855620.52<~>matt hyer<~>mail will work as we have 4 servers online
+0aa183<~>1248855625.64<~>matt hyer<~>for proofpoint
+b13891<~>1248855627.38<~>eric<~>transport service was not started on w1161 (HUB/CAS)
+b13891<~>1248855631.53<~>eric<~>checking them all
+b13891<~>1248855637.2<~>eric<~>cannot get to w1163
+0aa183<~>1248855637.37<~>matt hyer<~>so, we will just not get the spam and virus updates
+0aa183<~>1248855652.27<~>matt hyer<~>I&#039;m concernd though as it should be online
+0aa183<~>1248855667.47<~>matt hyer<~>other servers in teh same rack are online, but mail3 and 4 are not
+0aafd6<~>1248855675.75<~>rodney bliss<~>Right, but that&#039;s only an issue if we think we&#039;ll get zero hour spam and viruses
+0aa183<~>1248855687.73<~>matt hyer<~>yes
+0aafd6<~>1248855703.14<~>rodney bliss<~>I think we can live with it for 24 hours.
+0aa183<~>1248855714.84<~>matt hyer<~>i&#039;m ok with it
+0aa183<~>1248855719.08<~>matt hyer<~>just a little worked
+0aa183<~>1248855721.67<~>matt hyer<~>worried
+0aafd6<~>1248855723.03<~>rodney bliss<~>ForeFront may catch viruses
+0aa183<~>1248855756.84<~>matt hyer<~>I&#039;m more worried about it not coming back up
+0aafd6<~>1248855764.37<~>rodney bliss<~>I&#039;m not sure we are going to make much more progress tonight, though
+0aa183<~>1248855769.06<~>matt hyer<~>right
+0aafd6<~>1248855793.32<~>rodney bliss<~>Okay. I&#039;m going to leave this chat room open and I&#039;ll stay logged in.
+0aa183<~>1248855809.24<~>matt hyer<~>sounds like they are scrambling for the other apps
+0aafd6<~>1248855835.21<~>rodney bliss<~>I think I&#039;m going to call it for the evening unless anyone sees anything that we can still do
+0ab3f0<~>1248855898.75<~>nixon<~>should i fail back mbx04 back or not this morning
+b13891<~>1248855920.22<~>eric<~>i would take it back to the active side if it is all clean
+0aafd6<~>1248855935.18<~>rodney bliss<~>Do we need the heartbeat zone available?
+0ab3f0<~>1248855977.17<~>nixon<~>ok ill move mbx04 back to the primary noe
+0ab3f0<~>1248855979.05<~>nixon<~>node
+0aafd6<~>1248855997.37<~>rodney bliss<~>alright
+b13891<~>1248856171.14<~>eric<~>HBZ is up
+b13891<~>1248856232.24<~>eric<~>so for MSG we still have the following outstanding items:
+b13891<~>1248856240.64<~>eric<~>w1163
+b13891<~>1248856249.04<~>eric<~>BBerry servers
+b13891<~>1248856255.65<~>eric<~>OCS Directors (ESX Issue)
+b13891<~>1248856266.64<~>eric<~>Mail3, 4, 7
+b13891<~>1248856336.61<~>eric<~>that is all I am aware of anyone else know?
+0aa183<~>1248856408.85<~>matt hyer<~>sounds right
+0ab3f0<~>1248856432.27<~>nixon<~>mbx04 is back on the primary now
+0aafd6<~>1248856437.87<~>rodney bliss<~>good
+0aafd6<~>1248856463.32<~>rodney bliss<~>I&#039;ll send a status email out. Thanks for all your help. Go to bed. Pick it up tomorrow
+b13891<~>1248856528.51<~>eric<~>I think we shoudl ping Guy to see if he can check PPS
+b13891<~>1248856535.29<~>eric<~>i dont like master being out
+0aafd6<~>1248856571.31<~>rodney bliss<~>We tried. I think they will shut us down again since we are not critical path at this point
+0aafd6<~>1248856615.18<~>rodney bliss<~>I agree with you, but I don&#039;t think they are going to pull a resource to go check it for us.
+b13891<~>1248856615.23<~>eric<~>right
+b13891<~>1248856634.36<~>eric<~>k
+0aafd6<~>1248856643.58<~>rodney bliss<~>NetMail is still out, yes?
+0ab3f0<~>1248856646.87<~>nixon<~>1163 has the fileshare witness for mbx05
+b13891<~>1248856660.26<~>eric<~>i am going to drop off then. call me if you need anything
+0aafd6<~>1248856661.77<~>rodney bliss<~>John, what does that mean?
+0ab3f0<~>1248856672.72<~>nixon<~>ldsmail is ok, mylds ... i&#039;ll check
+0aa183<~>1248856677.87<~>matt hyer<~>wiht lds.org being down, myldsmail and ldsmail won&#039;t work as the login pages are there
+0ab3f0<~>1248856697.99<~>nixon<~>right
+0aafd6<~>1248856707.69<~>rodney bliss<~>okay. I&#039;ll note that.
+0aafd6<~>1248856709.9<~>rodney bliss<~>thanks
+b13891<~>1248856719.26<~>eric<~>matthew jensen said LDSTeams is down?
+b13891<~>1248856731.79<~>eric<~>I get &quot;Cannot connect to the Configuration database&quot; error
+b13891<~>1248856746.34<~>eric<~>josef u aware of that?
+0aa183<~>1248856760.3<~>matt hyer<~>myldsmail.net linxu server is offline
+0ab3f0<~>1248856761.44<~>nixon<~>fileshare witness controls who is the active node in the cluster if there is contention on who should be the active node
+0aa183<~>1248856774.5<~>matt hyer<~>I think from a switch being down
+0aa183<~>1248856881.23<~>matt hyer<~>I think its time to crash
+0aa183<~>1248856893.1<~>matt hyer<~>hit the hay.  I&#039;m out
+0aafd6<~>1248856898.83<~>rodney bliss<~>c Ya
+b13891<~>1248856899.19<~>eric<~>ok
+b13891<~>1248856902.99<~>eric<~>m2
+758894<~>1248857111.11<~>josef<~>You still on Rodney?
+0ab3f0<~>1248857245.78<~>nixon<~>mbx05 is on the secondary node, but without the fsw for him online 1163, i dont want to move him..
+0aafd6<~>1248857315.99<~>rodney bliss<~>yup
+0aafd6<~>1248857447.85<~>rodney bliss<~>Just leave him on the backup node
+0aafd6<~>1248858210.44<~>rodney bliss<~>LDSTeams is now online
+0aafd6<~>1248858244.21<~>rodney bliss<~>I&#039;m leaving this chat open, but I&#039;m dropping off. Call my cell if there&#039;s an emergency . . . I mean ANOTHER one
+0aafd6<~>1248858250.87<~>rodney bliss<~>801 440-9998
+b13891<~>1248872841.31<~>eric<~>anyone in this chat room?
+0aafd6<~>1248880297.61<~>rodney bliss<~>here now
+0aafd6<~>1248880384.65<~>rodney bliss<~>I&#039;m headed off to Riverton in the next few minutes

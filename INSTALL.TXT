@@ -1,0 +1,32 @@
+Ajchat - Install
+================
+
+Before you attempt to install Ajchat, please make sure you have met the following requirements.
+
+Requirements:
+  	PHP 4.3.1 or later
+    MySQL 4.0 or later
+    Apache HTTP Server 1.3 or later with 'mod_rewrite' module (otherwise, read the 'Notes' section below)
+    A web-browser
+    	
+    	
+Instructions:
+	1. Configure 'includes/config_vars.inc.php'
+	2. Make sure the folder 'chatdata' is writable (chmod 777)
+	3. Import the data in 'ajchat.sql' to your database (make sure you have created the database first!)
+	4. Check that you have the file '.htaccess' in your 'ajchat' directory and also in 'ajchat/chatdata' directory.
+	   Make sure your .htaccess permissions are correct in your Apache config file, so that you can use mod_rewrite (the default configuration may not allow you to run directives for .htaccess).
+	5. Do a test run on your web browser.
+	
+	
+Notes:
+	- For more creative ways of manupilating URLs without 'mod_rewrite', read
+	  http://meta.wikimedia.org/wiki/Rewrite_rules
+	- If you encounter any 'HTTP Error 500 - Internal server error' errors while trying to run Ajchat after installation, check the '.htaccess' file for any problems or incompatibility. 
+	- Make sure that your web server can store sessions data.
+	- You can easily set the path for sessions with a .htaccess file with the following line below
+	  php_value session.save_path path/to/session
+	  But make sure your session data is NOT viewable to the public!
+	- You need a really good server to run Ajchat if there are many users. Also, make sure your 'mysql max connections' for your MySQL settings (in your 'my.cnf') is high enough.
+	- If you encounter "Fatal error: Call to undefined function getmxrr() in includes\functions_acc.inc.php", then you are running Windows. Go to the file and edit accordingly (Instructions in the file itself).
+	
